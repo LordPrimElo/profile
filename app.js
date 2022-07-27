@@ -4,7 +4,7 @@ const app = express()
 
 
 // ROUTE IMPORTS
-const mainRoutes = require("./routes/main")
+const mainRoutes = require("./routes/main.js")
 
 
 // CONFIG
