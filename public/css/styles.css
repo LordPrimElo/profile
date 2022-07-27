@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+
+#index_title-div-evan-div {
+    margin-bottom: -4vw;
+}
+
+#index_title-div-rathore-div {
+    margin-top: -4vw;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50vw;
+    width: 100vw;
+}
+
+.index_title-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.index_title-div span {
+    transition: 0.1s;
+    font-size: 15vw;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+    color: white;
+    font-weight: 400;
+}
+
+.index_title-div span:hover {
+    color: rgb(180, 51, 255);
+    font-weight: 700;
+}
