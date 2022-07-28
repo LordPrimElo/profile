@@ -81,9 +81,17 @@ body {
 }
 
 .yelp-food-div li {
+    transition: 0.5s;
+    line-break: strict;
     font-family: "Josefin Sans";
     font-weight: 500;
     line-height: 200%;
+}
+
+.yelp-food-div li:hover {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 700;
 }
 
 #the-end {
