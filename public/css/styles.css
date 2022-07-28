@@ -6,9 +6,10 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    height: 50vw;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     flex-flow: column;
+    margin-bottom: 80%;
 }
 
 .index_title-div {
@@ -17,7 +18,7 @@ body {
     align-items: flex-start;
     justify-content: center;
     height: 100%;
-    margin-top: 45vw;
+    margin-top: 5%;
 }
 
 #index_title-div-rathore-div {
@@ -47,14 +48,59 @@ body {
 }
 
 .index_siteLinks-div {
-    margin-top: 25vw;
+    margin-top: 70%;
     min-height: fit-content;
     min-width: 100%;
     background-color: orange;
     border: white 10px solid;
+    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
 }
 
 .index_siteLinks-div .yelp-food-div {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    color: #161616;
+}
+
+.yelp-food-div h1 {
+    font-weight: 700;
+}
+
+.yelp-food-div h2 {
+    font-weight: 600;
+}
+
+.yelp-food-div h3 {
+    font-size: 3rem;
+}
+
+.yelp-food-div h4 {
+    font-family: "Josefin Sans";
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.yelp-food-div li {
+    font-family: "Josefin Sans";
+    font-weight: 500;
+    line-height: 200%;
+}
+
+#the-end {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+
+}
+
+#the-end-text {
+    transition: 0.5s;
+    font-family: "Josefin Sans";
+    color: white;
+    font-size: 5rem;
+}
+
+#the-end-text:hover {
+    font-size: 7rem;
+    color: orange;
 }
