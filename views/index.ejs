@@ -1,15 +1,15 @@
 <%- include("partials/header") %> 
 
 <div class="container">
-    <div class="index_title-div">
+    <div class="index_title-div row">
         <div id="index_title-div-evan-div">
-            <span>E</span>
+            <span class="name-initials">E</span>
             <span>v</span>
             <span>a</span>
             <span>n</span>
         </div>
-        <div id="index_title-div-rathore-div" >
-            <span>R</span>
+        <div id="index_title-div-rathore-div">
+            <span class="name-initials">R</span>
             <span>a</span>
             <span>t</span>
             <span>h</span>
@@ -19,5 +19,46 @@
         </div>
     </div>
     
+    <div class="row index_siteLinks-div">
+        <div class="row yelp-food-div">
+            <div class="col-5 p-2 px-4">
+                <h1>Yelp Food</h1>
+                <p>A yelp-like clone web application but for food reviews.</p>
+                <h2>Functionality</h2>
+                <ul>
+                    <li>Display information about individual foods</li>
+                    <li>Add Food Items</li>
+                    <li>Add Reviews</li>
+                    <li>Add Comments</li>
+                    <li>Search (Genre and plain text)</li>
+                    <li>Signup-Login Authentication</li>
+                    <li>Voting</li>
+                    <li>Save/Unsave Food Items</li>
+                    <li>Edit/Delete Food Items</li>
+                    <li>Flash Messages</li>
+                    <li>RESTful routing</li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <h2>Technologies Used</h2>
+                <ul>
+                    <li>ECMAScript6 (ES6 JavaScript)</li>
+                    <li>Node.js</li>
+                    <li>NPM</li>
+                    <li>Express</li>
+                    <li>MongoDB</li>
+                    <li>FetchAPI</li>
+                    <li>EJS</li>
+                </ul>
+            </div>
+            <div class="col">
+                <form action="https://yelp-food.herokuapp.com/" method="GET">
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-lg btn-dark">Go!</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
 <%- include("partials/footer") %> 

@@ -2,38 +2,59 @@ body {
     background-color: black;
 }
 
-#index_title-div-evan-div {
-    margin-bottom: -4vw;
-}
-
-#index_title-div-rathore-div {
-    margin-top: -4vw;
-}
-
 .container {
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    align-items: flex-start;
+    justify-content: center;
     height: 50vw;
     width: 100vw;
+    flex-flow: column;
 }
 
 .index_title-div {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
     height: 100%;
+    margin-top: 45vw;
+}
+
+#index_title-div-rathore-div {
+    margin-top: -7rem;
 }
 
 .index_title-div span {
-    transition: 0.1s;
+    transition: 0.25s;
     font-size: 15vw;
     font-family: "Josefin Sans", Helvetica, sans-serif;
     color: white;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .index_title-div span:hover {
     color: rgb(180, 51, 255);
     font-weight: 700;
+}
+
+.index_title-div .name-initials {
+    font-weight: 400;
+    color: orange;
+}
+
+.index_title-div .name-initials:hover {
+    color: skyblue;
+}
+
+.index_siteLinks-div {
+    margin-top: 25vw;
+    min-height: fit-content;
+    min-width: 100%;
+    background-color: orange;
+    border: white 10px solid;
+}
+
+.index_siteLinks-div .yelp-food-div {
+    display: flex;
+    align-items: center;
 }
