@@ -2,7 +2,7 @@ body {
     background-color: black;
 }
 
-.container {
+.main-container {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -51,15 +51,21 @@ body {
     margin-top: 70%;
     min-height: fit-content;
     min-width: 100%;
-    background-color: orange;
-    border: white 10px solid;
     font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+    margin-bottom: 70%;
 }
 
-.index_siteLinks-div .yelp-food-div {
+.yelp-food-div {
+    background-color: orange;
+    border: white 10px solid;
     display: flex;
     align-items: flex-start;
     color: #161616;
+    transition: 0.5s;
+}
+
+.yelp-food-div:hover {
+    background-color: rgb(180, 51, 255);
 }
 
 .yelp-food-div h1 {
@@ -92,6 +98,25 @@ body {
     font-size: 1.5rem;
     color: white;
     font-weight: 700;
+}
+
+.index_table-div {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+    border: solid 10px orange;
+}
+
+.index_table-div .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.index_table-div img {
+    height: 60%;
 }
 
 #the-end {
