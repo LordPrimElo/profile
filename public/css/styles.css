@@ -107,16 +107,60 @@ body {
     align-items: center;
     border-radius: 2rem;
     border: solid 10px orange;
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    
+}
+
+.index_table-div .second-row {
+    height: 20vw;
 }
 
 .index_table-div .col {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.5s;
+    border-radius: 2rem;
+    margin: 0.5%;
+}
+
+.index_table-div .col:hover {
+    background-color: rgb(205, 210, 214);
 }
 
 .index_table-div img {
-    height: 60%;
+    height: 50%;
+    transition: 0.25s;
+    max-width: 120%;
+}
+
+.index_table-div img:hover {
+    height: 65%;
+}
+
+.npm {
+    max-height: 40%;
+}
+
+.npm:hover {
+    max-height: 50%;
+}
+
+.tools-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tools {
+    font-size: 5rem;
+    font-weight: 900;
+    transition: 0.25s;
+}
+
+#tools:hover {
+    color: rgb(43, 0, 92);
+    font-size: 6.3rem;
 }
 
 #the-end {
