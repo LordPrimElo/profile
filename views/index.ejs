@@ -72,13 +72,17 @@
             <div class="pt-4 tools-div">
                 <h1 id="tools">Tools I Use</h1>
             </div>
-            <div class="row">
-                <div class="col"><img src="/img/Node.js_logo.svg"></div>
-                <div class="col"><img src="/img/expressjs-ar21.svg"></div>
+            <div class="row first-row">
+                <div class="col block" id="node-block"><img src="/img/Node.js_logo.svg"></div>
+                <div class="col block" id="express-block"><img src="/img/expressjs-ar21.svg"></div>
+                <div class="col hidden" id="npm-text"><h1>NPM is an essential part to any web devlopers toolbelt, <br> it allows me to use others' code and build on it to <br> make even better web apps!</h1></div>
+                <div class="col hidden" id="mongodb-text"><h1>MongoDB is a non-SQL and document based powerful database which allows me to retrive and store data efficiently.</h1></div>
             </div>
             <div class="row second-row">
-                <div class="col"><img class="npm" src="/img/Npm-logo.svg"></div>
-                <div class="col"><img src="/img/mongodb-icon.svg"></div>
+                <div class="col block" id="npm-block"><img class="npm" src="/img/Npm-logo.svg"></div>
+                <div class="col block" id="mongodb-block"><img src="/img/mongodb-icon.svg"></div>
+                <div class="col hidden" id="node-text"><h1>NodeJS is what allows me to code both the frontend and backend of poweful web applications with just JavaScript seamlessly</h1></div>
+                <div class="col hidden" id="express-text"><h1>ExpressJS is a framework which makes server-hosting with JavaScript possible and clutterless.</h1></div>
             </div>
         </div>
 
@@ -90,4 +94,6 @@
 <div id="the-end">
     <h1 id="the-end-text">That's All Folks!</h1>
 </div>
+
+<script src="/js/index.js"></script>
 <%- include("partials/footer") %> 
