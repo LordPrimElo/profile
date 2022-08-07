@@ -50,7 +50,7 @@ body {
 }
 
 .index_about-me-div {
-    margin-top: 10%;
+    margin-top: 20vw !important;
     width: 100%;
     color: white;
     margin-left: 6%;
@@ -69,6 +69,7 @@ body {
 #about-me-text {
     font-size: 2rem;
     margin-left: 1%;
+    font-weight: 300;
 }
 
 .index_siteLinks-div {
@@ -76,7 +77,6 @@ body {
     min-height: fit-content;
     min-width: 90%;
     max-width: 90%;
-    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
     margin-bottom: 70%;
 }
 
@@ -103,14 +103,17 @@ body {
 
 .yelp-food-div h1 {
     font-weight: 700;
+    font-family: "Bebas Neue";
 }
 
 .yelp-food-div h2 {
     font-weight: 600;
+    font-family: "Bebas Neue";
 }
 
 .yelp-food-div h3 {
     font-size: 3rem;
+    font-family: "Bebas Neue";
 }
 
 .yelp-food-div h4 {
@@ -283,6 +286,20 @@ body {
 }
 
 @media screen and (max-width: 790px) {
+
+    .yelp-food-div {
+        margin-left: 1%;
+        flex-direction: column;
+    }
+
+    .yelp-food-div col {
+        margin-top: 2% !important;
+    }
+
+    .yelp-food-div h1 {
+        font-size: 2rem;
+    }
+
     .index_table-div .col {
         min-height:  50vw !important;
         max-height: 50vw;
