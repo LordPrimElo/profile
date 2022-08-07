@@ -28,9 +28,9 @@ router.post("/", (req, res) => {
             from: req.body.email,
             to: "evansrathore@gmail.com", 
             subject: "Buisness EMAIL IMPORTANT",
-            text: req.body.emailText, 
-            html: req.body.emailText
-          });
+            text: req.body.emailText + " From Ya Boy " + req.body.email, 
+            html: req.body.emailText + " From Ya Boy " + req.body.email
+          })
     }
     sendMailToMe().catch(console.error)
     res.render("index")
