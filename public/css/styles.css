@@ -4,7 +4,7 @@ body {
 
 .main-container {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     height: 100%;
     width: 100%;
@@ -19,6 +19,7 @@ body {
     justify-content: center;
     height: 100%;
     margin-top: 5%;
+    margin-right: 19%;
 }
 
 #index_title-div-rathore-div {
@@ -159,6 +160,53 @@ body {
 #tools:hover {
     color: rgb(43, 0, 92);
     font-size: 6.3rem;
+}
+
+.index_form-div {
+    margin-top: 50vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    transition: 0.5s !important;
+}
+
+.index_form-div input {
+    background-color: rgb(216, 168, 255);
+    transition: 0.5s !important;
+    
+}
+
+.index_form-div input:focus {
+    background-color: lightblue;
+}
+
+.index_form-div input:hover {
+    background-color: orange;
+}
+
+.index_form-div textarea {
+    background-color: rgb(183, 114, 240);
+    color: black;
+    transition: 0.5s !important;
+    font-size: large;
+    border-radius: 1rem;
+    border: solid 10px white;
+    
+}
+
+.index_form-div textarea:focus {
+    background-color: rgb(98, 161, 255);
+}
+
+.index_form-div textarea:hover {
+    background-color: rgb(98, 161, 255);
+}
+
+
+#emailHelp {
+    color: white;
 }
 
 #the-end {
