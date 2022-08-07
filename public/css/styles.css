@@ -265,6 +265,8 @@ body {
 #the-end {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     height: 100%;
     max-width: 100% !important;
 }
@@ -274,11 +276,16 @@ body {
     font-family: "Josefin Sans";
     color: white;
     font-size: 4rem;
+    margin: 2%;
 }
 
 #the-end-text:hover {
     font-size: 7rem;
     color: orange;
+}
+
+#the-end:nth-child(2) {
+    color: white;
 }
 
 .hidden {
