@@ -13,28 +13,6 @@ body {
     font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
 }
 
-.index_about-me-div {
-    margin-top: 10%;
-    width: 100%;
-    color: white;
-    margin-left: 6%;
-}
-
-#about-me-HelloThere {
-    font-size: 3rem;
-    transition: 0.25s;
-}
-
-#about-me-HelloThere:hover {
-    font-size: 4rem;
-    color: orange;
-}
-
-#about-me-text {
-    font-size: 2rem;
-    margin-left: 1%;
-}
-
 .index_title-div {
     display: flex;
     flex-direction: column;
@@ -42,11 +20,11 @@ body {
     justify-content: center;
     height: 100%;
     margin-top: 5%;
-    margin-right: 19%;
+    width: 100%
 }
 
 #index_title-div-rathore-div {
-    margin-top: -7rem;
+    margin-top: -7vw;
 }
 
 .index_title-div span {
@@ -71,16 +49,39 @@ body {
     color: skyblue;
 }
 
+.index_about-me-div {
+    margin-top: 10%;
+    width: 100%;
+    color: white;
+    margin-left: 6%;
+}
+
+#about-me-HelloThere {
+    font-size: 3rem;
+    transition: 0.25s;
+}
+
+#about-me-HelloThere:hover {
+    font-size: 4rem;
+    color: orange;
+}
+
+#about-me-text {
+    font-size: 2rem;
+    margin-left: 1%;
+}
+
 .index_siteLinks-div {
     margin-top: 70%;
     min-height: fit-content;
-    min-width: 100%;
+    min-width: 90%;
+    max-width: 90%;
     font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
     margin-bottom: 70%;
 }
 
 #portfolio {
-    font-size: 10rem;
+    font-size: 10vw;
     color: white;
     display: flex;
     align-items: center;
@@ -133,7 +134,7 @@ body {
 }
 
 .index_table-div {
-    width: 110%;
+    width: 100%;
     min-height: 100%;
     background-color: white;
     display: flex;
@@ -155,19 +156,19 @@ body {
     justify-content: center;
     transition: 0.5s;
     border-radius: 2rem;
-    margin: 0.5%;
+    margin: 5%;
     min-height:  20vw !important;
     max-height: 20vw;
 }
 
 .index_table-div img {
-    height: 50%;
+    height: 65%;
     transition: 0.25s;
     max-width: 120%;
 }
 
 .index_table-div img:hover {
-    height: 65%;
+    height: 75%;
 }
 
 .npm {
@@ -204,7 +205,7 @@ body {
     color: white;
     font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
     transition: 0.5s !important;
-    width: 100%;
+    width: 90%;
 }
 
 .index_form-div input {
@@ -250,14 +251,14 @@ body {
     display: flex;
     justify-content: center;
     height: 100%;
-
+    max-width: 100% !important;
 }
 
 #the-end-text {
     transition: 0.5s;
     font-family: "Josefin Sans";
     color: white;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 #the-end-text:hover {
