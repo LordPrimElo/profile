@@ -10,6 +10,29 @@ body {
     width: 100%;
     flex-flow: column;
     margin-bottom: 80%;
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+}
+
+.index_about-me-div {
+    margin-top: 10%;
+    width: 100%;
+    color: white;
+    margin-left: 6%;
+}
+
+#about-me-HelloThere {
+    font-size: 3rem;
+    transition: 0.25s;
+}
+
+#about-me-HelloThere:hover {
+    font-size: 4rem;
+    color: orange;
+}
+
+#about-me-text {
+    font-size: 2rem;
+    margin-left: 1%;
 }
 
 .index_title-div {
@@ -54,6 +77,14 @@ body {
     min-width: 100%;
     font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
     margin-bottom: 70%;
+}
+
+#portfolio {
+    font-size: 10rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .yelp-food-div {
@@ -103,18 +134,19 @@ body {
 
 .index_table-div {
     width: 110%;
-    min-height: 52.5vw;
+    min-height: 100%;
     background-color: white;
     display: flex;
     align-items: center;
     border-radius: 2rem;
     border: solid 10px orange;
     font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    padding: 2%;
     
 }
 
 .index_table-div .second-row {
-    height: 20vw;
+    height: 50%;
 }
 
 .index_table-div .col {
@@ -124,7 +156,8 @@ body {
     transition: 0.5s;
     border-radius: 2rem;
     margin: 0.5%;
-    min-height: 20vw !important;
+    min-height:  20vw !important;
+    max-height: 20vw;
 }
 
 .index_table-div img {
@@ -155,6 +188,7 @@ body {
     font-size: 5rem;
     font-weight: 900;
     transition: 0.25s;
+    margin: 5%;
 }
 
 #tools:hover {
@@ -170,6 +204,7 @@ body {
     color: white;
     font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
     transition: 0.5s !important;
+    width: 100%;
 }
 
 .index_form-div input {
@@ -193,6 +228,8 @@ body {
     font-size: large;
     border-radius: 1rem;
     border: solid 10px white;
+    max-width: 100%;
+    min-width: 80%;
     
 }
 
