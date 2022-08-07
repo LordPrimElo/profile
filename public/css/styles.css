@@ -141,9 +141,11 @@ body {
     align-items: center;
     border-radius: 2rem;
     border: solid 10px orange;
-    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
-    padding: 2%;
-    
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;    
+}
+
+.index_table-div span {
+    font-size: 2rem;
 }
 
 .index_table-div .second-row {
@@ -156,19 +158,19 @@ body {
     justify-content: center;
     transition: 0.5s;
     border-radius: 2rem;
-    margin: 5%;
-    min-height:  20vw !important;
-    max-height: 20vw;
+    min-height:  18vw !important;
+    max-height: 18vw;
+    text-align: center;
 }
 
 .index_table-div img {
-    height: 65%;
+    height: 60%;
     transition: 0.25s;
     max-width: 120%;
 }
 
 .index_table-div img:hover {
-    height: 75%;
+    height: 70%;
 }
 
 .npm {
@@ -206,6 +208,16 @@ body {
     font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
     transition: 0.5s !important;
     width: 90%;
+}
+
+.index_form-div h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.index_form-div p {
+    text-align: center;
+    color: rgb(245, 198, 255);
 }
 
 .index_form-div input {
@@ -268,4 +280,47 @@ body {
 
 .hidden {
     display: none !important;
+}
+
+@media screen and (max-width: 790px) {
+    .index_table-div .col {
+        min-height:  50vw !important;
+        max-height: 50vw;
+    }
+
+    .index_table-div img {
+        height: 25%;
+        transition: 0.25s;
+        max-width: 120%;
+    }
+    
+    .index_table-div img:hover {
+        height: 30%;
+    }
+    
+    .npm {
+        max-height: 15%;
+    }
+    
+    .npm:hover {
+        max-height: 22%;
+    }
+
+    #tools {
+        font-size: 3rem;
+    }
+    
+    #tools:hover {
+        color: rgb(43, 0, 92);
+        font-size: 4.3rem;
+    }
+
+    #the-end-text {
+        font-size: 2rem;
+    }
+    
+    #the-end-text:hover {
+        font-size: 4rem;
+        color: orange;
+    }
 }
