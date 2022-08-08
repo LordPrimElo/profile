@@ -192,14 +192,9 @@ body {
 
 #tools {
     font-size: 5rem;
-    font-weight: 900;
     transition: 0.25s;
     margin: 5%;
-}
-
-#tools:hover {
-    color: rgb(43, 0, 92);
-    font-size: 6.3rem;
+    color: white;
 }
 
 .index_form-div {
@@ -332,11 +327,6 @@ body {
 
     #tools {
         font-size: 3rem;
-    }
-    
-    #tools:hover {
-        color: rgb(43, 0, 92);
-        font-size: 4.3rem;
     }
 
     #the-end-text {
