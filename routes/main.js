@@ -36,4 +36,8 @@ router.post("/", (req, res) => {
     res.render("index")
 })
 
+router.get("*", (req, res, next) => {
+  res.redirect("/")
+})
+
 module.exports = router
